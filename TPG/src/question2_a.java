@@ -24,9 +24,9 @@ public final class question2_a {
 		
 		Collections.sort(studentsBeforeSort);
 		
-		System.out.println("After sort : ");
+		System.out.println("Sorted : ");
 		for (question2 student : studentsBeforeSort) {
-			System.out.println("id="+student.getId()+", name="+student.getName()+", gpa="+student.getCgpa());
+			System.out.println("name="+student.getName());
 		}
 	}
 
