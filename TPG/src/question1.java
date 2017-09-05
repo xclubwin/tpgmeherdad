@@ -43,7 +43,7 @@ public class question1 {
 	}
 	
 	private static List<String> getListOfIpAddresses() throws FileNotFoundException, URISyntaxException {
-		InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("ipaddress.txt");
+		InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("ipaddresses.txt");
 		
 		Scanner s = new Scanner(is);
 		List<String> list = new ArrayList<String>();
